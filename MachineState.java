@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentMap;
 public class MachineState {
 
 
-    // 过期时间
+    //
     private int expire;
 
     private Map<String,Map<Integer,Transaction>> state = new HashMap<>();
